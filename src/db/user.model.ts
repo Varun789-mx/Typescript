@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 dotenv.config({ path: "../../.env" });
 
-const connection_uri: string = "mongodb+srv://varun153:varun123@cluster0.r8d8y.mongodb.net/";
+const connection_uri: string = "";
 console.log(connection_uri);
 try {
   mongoose.connect(connection_uri);
